@@ -19,7 +19,7 @@
 
     Now that we have moved to the directory we want to clone the repository in, now lets clone the repository:
     
-        git clone mazure21/Kellanova (github.com) 
+        git clone mazure21/Kellanova
     
     With the repository now cloned, run the following command to move into the repository and its contents:
     
