@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0112.1233                               -->
+<workbook original-version='18.1' source-build='2023.3.2 (20233.24.0112.1233)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='meijer_df_reduced' inline='true' name='federated.1mahb2b0zq254v1dc0xxo14nwnxj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='meijer_df_reduced' name='textscan.05gil9c18epp7b16t4ouz1ygngmr'>
+            <connection class='textscan' directory='C:/Users/bpawl/Desktop/CMSE 495/python stuff/pythonProject/Kellanova' filename='meijer_df_reduced.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.05gil9c18epp7b16t4ouz1ygngmr' name='meijer_df_reduced.csv' table='[meijer_df_reduced#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Fisc Pd' ordinal='0' />
+            <column datatype='integer' name='Fisc Yr' ordinal='1' />
+            <column datatype='string' name='Mrkt Desc' ordinal='2' />
+            <column datatype='date' name='PD_YR_dt_frmt' ordinal='3' />
+            <column datatype='string' name='YrPd' ordinal='4' />
+            <column datatype='integer' name='YYYYPP' ordinal='5' />
+            <column datatype='integer' name='YYYYPP Parameter' ordinal='6' />
+            <column datatype='real' name='% Unit Non-Promoted' ordinal='7' />
+            <column datatype='real' name='% Unit Promoted ' ordinal='8' />
+            <column datatype='real' name='Avg Prc' ordinal='9' />
+            <column datatype='real' name='Avg. Price' ordinal='10' />
+            <column datatype='real' name='Avg. Price yago' ordinal='11' />
+            <column datatype='date' name='Data Update Date' ordinal='12' />
+            <column datatype='real' name='DOL' ordinal='13' />
+            <column datatype='real' name='Non-Promo Price' ordinal='14' />
+            <column datatype='real' name='Non-Promo Price yago' ordinal='15' />
+            <column datatype='real' name='Promo Price' ordinal='16' />
+            <column datatype='real' name='Promo Price yago' ordinal='17' />
+            <column datatype='real' name='TotalCnt' ordinal='18' />
+            <column datatype='real' name='Units' ordinal='19' />
+            <column datatype='real' name='Yago Dol' ordinal='20' />
+            <column datatype='real' name='Yago Units' ordinal='21' />
+            <column datatype='real' name='Promo Sales' ordinal='22' />
+            <column datatype='real' name='Non Promo Sales' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.05gil9c18epp7b16t4ouz1ygngmr' name='meijer_df_reduced.csv' table='[meijer_df_reduced#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Fisc Pd' ordinal='0' />
+            <column datatype='integer' name='Fisc Yr' ordinal='1' />
+            <column datatype='string' name='Mrkt Desc' ordinal='2' />
+            <column datatype='date' name='PD_YR_dt_frmt' ordinal='3' />
+            <column datatype='string' name='YrPd' ordinal='4' />
+            <column datatype='integer' name='YYYYPP' ordinal='5' />
+            <column datatype='integer' name='YYYYPP Parameter' ordinal='6' />
+            <column datatype='real' name='% Unit Non-Promoted' ordinal='7' />
+            <column datatype='real' name='% Unit Promoted ' ordinal='8' />
+            <column datatype='real' name='Avg Prc' ordinal='9' />
+            <column datatype='real' name='Avg. Price' ordinal='10' />
+            <column datatype='real' name='Avg. Price yago' ordinal='11' />
+            <column datatype='date' name='Data Update Date' ordinal='12' />
+            <column datatype='real' name='DOL' ordinal='13' />
+            <column datatype='real' name='Non-Promo Price' ordinal='14' />
+            <column datatype='real' name='Non-Promo Price yago' ordinal='15' />
+            <column datatype='real' name='Promo Price' ordinal='16' />
+            <column datatype='real' name='Promo Price yago' ordinal='17' />
+            <column datatype='real' name='TotalCnt' ordinal='18' />
+            <column datatype='real' name='Units' ordinal='19' />
+            <column datatype='real' name='Yago Dol' ordinal='20' />
+            <column datatype='real' name='Yago Units' ordinal='21' />
+            <column datatype='real' name='Promo Sales' ordinal='22' />
+            <column datatype='real' name='Non Promo Sales' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fisc Pd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fisc Pd]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Fisc Pd</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fisc Yr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fisc Yr]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Fisc Yr</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mrkt Desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mrkt Desc]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Mrkt Desc</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PD_YR_dt_frmt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[PD_YR_dt_frmt]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>PD_YR_dt_frmt</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YrPd</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[YrPd]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>YrPd</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YYYYPP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YYYYPP]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>YYYYPP</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YYYYPP Parameter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YYYYPP Parameter]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>YYYYPP Parameter</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Unit Non-Promoted</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Unit Non-Promoted]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>% Unit Non-Promoted</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Unit Promoted </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Unit Promoted ]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>% Unit Promoted </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg Prc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg Prc]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Avg Prc</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg. Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg. Price]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Avg. Price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg. Price yago</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg. Price yago]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Avg. Price yago</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Update Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Data Update Date]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Data Update Date</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DOL]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>DOL</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-Promo Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-Promo Price]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Non-Promo Price</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-Promo Price yago</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-Promo Price yago]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Non-Promo Price yago</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promo Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Promo Price]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Promo Price</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promo Price yago</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Promo Price yago]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Promo Price yago</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCnt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TotalCnt]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>TotalCnt</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Units</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Units]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Units</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yago Dol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Yago Dol]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Yago Dol</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yago Units</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Yago Units]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Yago Units</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promo Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Promo Sales]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Promo Sales</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non Promo Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non Promo Sales]</local-name>
+            <parent-name>[meijer_df_reduced.csv]</parent-name>
+            <remote-alias>Non Promo Sales</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[% Unit Non-Promoted]' role='measure' type='quantitative' />
+      <column caption='% Unit Promoted' datatype='real' name='[% Unit Promoted ]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Avg Prc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Avg. Price yago]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Avg. Price]' role='measure' type='quantitative' />
+      <column datatype='real' name='[DOL]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Fisc Pd]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Fisc Yr]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[Non Promo Sales]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Non-Promo Price yago]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Non-Promo Price]' role='measure' type='quantitative' />
+      <column caption='PD YR dt frmt' datatype='date' name='[PD_YR_dt_frmt]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Promo Price yago]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Promo Price]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Promo Sales]' role='measure' type='quantitative' />
+      <column caption='Total Cnt' datatype='real' name='[TotalCnt]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Units]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[YYYYPP Parameter]' role='measure' type='quantitative' />
+      <column caption='Yyyypp' datatype='integer' name='[YYYYPP]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Yago Dol]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Yago Units]' role='measure' type='quantitative' />
+      <column caption='Yr Pd' datatype='string' name='[YrPd]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='meijer_df_reduced.csv' datatype='table' name='[__tableau_internal_object_id__].[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Unit Non-Promoted]' derivation='Sum' name='[sum:% Unit Non-Promoted:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[% Unit Promoted ]' derivation='Sum' name='[sum:% Unit Promoted :qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg Prc]' derivation='Sum' name='[sum:Avg Prc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg. Price yago]' derivation='Sum' name='[sum:Avg. Price yago:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Avg. Price]' derivation='Sum' name='[sum:Avg. Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DOL]' derivation='Sum' name='[sum:DOL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fisc Pd]' derivation='Sum' name='[sum:Fisc Pd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Non Promo Sales]' derivation='Sum' name='[sum:Non Promo Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Non-Promo Price yago]' derivation='Sum' name='[sum:Non-Promo Price yago:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Non-Promo Price]' derivation='Sum' name='[sum:Non-Promo Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Promo Price yago]' derivation='Sum' name='[sum:Promo Price yago:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Promo Price]' derivation='Sum' name='[sum:Promo Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Promo Sales]' derivation='Sum' name='[sum:Promo Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TotalCnt]' derivation='Sum' name='[sum:TotalCnt:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Units]' derivation='Sum' name='[sum:Units:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[YYYYPP Parameter]' derivation='Sum' name='[sum:YYYYPP Parameter:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[YYYYPP]' derivation='Sum' name='[sum:YYYYPP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Yago Dol]' derivation='Sum' name='[sum:Yago Dol:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Yago Units]' derivation='Sum' name='[sum:Yago Units:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:DOL:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Avg Prc:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Promo Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Promo Price:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Fisc Pd:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Avg. Price:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Yago Units:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:\% Unit Non-Promoted:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:YYYYPP Parameter:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Avg. Price yago:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Promo Price yago:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:TotalCnt:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Yago Dol:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:YYYYPP:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Non Promo Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Non-Promo Price:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[__tableau_internal_object_id__].[cnt:meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Units:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Non-Promo Price yago:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:\% Unit Promoted :qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='meijer_df_reduced.csv' id='meijer_df_reduced.csv_C010DB92B552455BBB57F09D10983E94'>
+            <properties context=''>
+              <relation connection='textscan.05gil9c18epp7b16t4ouz1ygngmr' name='meijer_df_reduced.csv' table='[meijer_df_reduced#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Fisc Pd' ordinal='0' />
+                  <column datatype='integer' name='Fisc Yr' ordinal='1' />
+                  <column datatype='string' name='Mrkt Desc' ordinal='2' />
+                  <column datatype='date' name='PD_YR_dt_frmt' ordinal='3' />
+                  <column datatype='string' name='YrPd' ordinal='4' />
+                  <column datatype='integer' name='YYYYPP' ordinal='5' />
+                  <column datatype='integer' name='YYYYPP Parameter' ordinal='6' />
+                  <column datatype='real' name='% Unit Non-Promoted' ordinal='7' />
+                  <column datatype='real' name='% Unit Promoted ' ordinal='8' />
+                  <column datatype='real' name='Avg Prc' ordinal='9' />
+                  <column datatype='real' name='Avg. Price' ordinal='10' />
+                  <column datatype='real' name='Avg. Price yago' ordinal='11' />
+                  <column datatype='date' name='Data Update Date' ordinal='12' />
+                  <column datatype='real' name='DOL' ordinal='13' />
+                  <column datatype='real' name='Non-Promo Price' ordinal='14' />
+                  <column datatype='real' name='Non-Promo Price yago' ordinal='15' />
+                  <column datatype='real' name='Promo Price' ordinal='16' />
+                  <column datatype='real' name='Promo Price yago' ordinal='17' />
+                  <column datatype='real' name='TotalCnt' ordinal='18' />
+                  <column datatype='real' name='Units' ordinal='19' />
+                  <column datatype='real' name='Yago Dol' ordinal='20' />
+                  <column datatype='real' name='Yago Units' ordinal='21' />
+                  <column datatype='real' name='Promo Sales' ordinal='22' />
+                  <column datatype='real' name='Non Promo Sales' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='meijer_df_reduced' name='federated.1mahb2b0zq254v1dc0xxo14nwnxj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mahb2b0zq254v1dc0xxo14nwnxj'>
+            <column datatype='real' name='[Non Promo Sales]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Promo Sales]' role='measure' type='quantitative' />
+            <column caption='Yr Pd' datatype='string' name='[YrPd]' role='dimension' type='nominal' />
+            <column-instance column='[YrPd]' derivation='None' name='[none:YrPd:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Non Promo Sales]' derivation='Sum' name='[sum:Non Promo Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Promo Sales]' derivation='Sum' name='[sum:Promo Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Non Promo Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Promo Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[none:YrPd:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/1&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/10&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/11&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/12&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/2&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/3&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/4&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/5&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/6&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/7&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/8&quot;' />
+              <groupfilter function='member' level='[none:YrPd:nk]' member='&quot;2022/9&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]</column>
+            <column>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[none:YrPd:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='border-color' value='#b0b0b0' />
+            <format attr='border-width' value='1' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]' value='false' />
+            <format attr='display' field='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[none:YrPd:nk]' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='aspect' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[Multiple Values]</rows>
+        <cols>([federated.1mahb2b0zq254v1dc0xxo14nwnxj].[none:YrPd:nk] / [federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{F8439B2D-08A4-4093-85DA-CF848774CFB5}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BF42F665-8CBF-4ADA-857D-546527678F09}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[:Measure Names]</field>
+            <field>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[none:YrPd:nk]</field>
+            <field>[federated.1mahb2b0zq254v1dc0xxo14nwnxj].[sum:Promo Sales:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8A3B60A2-D83E-4527-9C5C-038103064578}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CA712EA8-9A75-4892-959A-BB7077A26C84}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      z5zA3q0bqc9Y2H6aSJ+hvDv/ddY/7EeqpYFhE2YyY/IojPG4W9PCsFQln63ZTf+SvtTU1IJ5
+      RTQ1NZnq6uoffE4ikWz9ecuGtaYpkTC//GqtMcYYP5MwX3y91vh+xiSTGWOMMW6i3qzbtMOk
+      U0njer4xxpjmiktmy8Fzxhhjrp8+ZK5UNJhUosWkXc98++26F6r1/v37JpVK/cAzPJNIZB/3
+      fdesWbvOJOvumLVb9hljjGmsvGk27jxkUsmk8fxsXXW3zpmdxy+ZZCJpHk4yZw5sNVcfNBtj
+      jNm7Y6tJuI/Xge/7ZuP6tSaZ8X+w1lu3bv3g456bNqm0a4wxJtVw32zYccBcP7nXHL14zxhj
+      zJXv9pjvrtxrU9fx3RtMeW3qmX40pz3j+57Zvn1763ONMSbZXGvWbdj2g3W8SK1Pvt7uLetM
+      TXPafPnll8bzfeN7afPFl18bY1yTSKSNMcb4XtqsWbfeuJmUSWe8bC01t8ymPceMMcbcu3Tc
+      nLmZ3eaunT5sjp2/bL76Yu2P1llVVWWam5t/4Bn+E33yzJo1a42frDFfrN1qjDEm1VRp1mzY
+      YTLplMm42bpaKq+bzftPtVnP107uM6duVBpjjDmyd6epS2TM6YPbzY3KH3rttn5snT5vf7l3
+      +bjZe+KqMcaYuxePmH2nbrSp6+LRneb8nbq2/di8ztS0ZLejHdu2Gtdzzdo164z3w5vnS9X6
+      7P5y2RzcscGUVzUZY4zZu2mNuVufbFPX9k1rTUPSfaYfxhjjpZvN9l3727zGge0bzN3alh+s
+      w/d9c/v27R98zvP2l7VffWESD/fXNV/90qTcZ48TT/Yjk6g3327eYYwxpr7imjl8+qq58t1u
+      c+pGdpu9de6QCdUtoHg8B99Nc2j3NgpKxxIzKeJ5eQBYkTg2HpYVIScnQkNNBRu37GTGzJlE
+      Yzk4NlSUX2bL4cvMfXM8GMP1+02MGlhILJ5L1OnIVWkTj8dItTSwZcN6Jr4xi6aaSooHlgKQ
+      36eEREsDsZwcbAvuXL/I7hM3mTVlDDnxHMDn4qmj3E7EGdEvFy/TQtrOI+5k14GXSXFw9zZK
+      ysYTc4Kc/4HtRIlFbWof3GbTjkPMmv4GlVWVlD78jHZp6UAeVNVk6zIe504cosovZmhRNFuL
+      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
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

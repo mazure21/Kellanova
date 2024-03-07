@@ -1,0 +1,106 @@
+-------
+FROSTED
+-------
+
+PRTZL CINN SGR - Cinnamon sugar pretzel (frosted)
+
+PRTZL CHOC - Chocolate pretzel (frosted)
+
+CHOC CPCAKE  -  Chocolate cupcake (frosted)
+
+FR HRVST STRWBRRY SMPLY - Simply strawberry (frosted)
+
+FRSTD ORCHRD APL CINN SMPLY - Simply orchard apple cinnamon (frosted)
+
+CNFETTI CPCAKE - Confetti cupcake (frosted)
+
+CHOC CHRRO - Chocolately churro (frosted)
+
+CHOC CHIP - Chocolate chip (frosted)
+
+STRWBRRY MLKSHK - Strawberry milkshake (frosted)
+
+CHOC CHIP CK DGH - Chocolate chip cookie dough (frosted)
+
+CINN ROLL - Cinnamon roll (frosted)
+
+COOK&CRM - Cookies and cream (frosted)
+
+FRSTD BLUBRRY - Blueberry (frosted)
+
+FRSTD BRN SGR CIN - Brown sugar cinnamon (frosted)
+
+FRSTD RSPBRRY - Raspberry (frosted)
+
+FRSTD STRWBRRY & FRSTD STRWBRY & FRSTDSTRWBRRY - Strawberry (frosted)
+
+FRSTD CHRY - Cherry (frosted)
+
+FRSTD SMORES - Smores (frosted)
+
+WILD BRRY - Wild berry (frosted)
+
+RED WHT AND BRRY - Red white and blueberry pop tarts (frosted)
+
+PINK LEMNADE - Lemon groove pink lemonade (frosted)
+
+SLTD CRML PRTZL - Salted caramel pretzel (frosted)
+
+FRSTD CH FDG & FRSTD CHCFDG - Chocolate fudge (frosted)
+
+MYSTRY FLVR (frosted)
+
+LEMN CRM - Lemon cream pie (frosted)
+
+PEACH CBLR - Peach cobbler (frosted)
+
+RED VLVT CPCAKE - Red velvet cupcake (frosted)
+
+APL CRSP - Apple crisp (frosted)
+
+APL FRTR - Apple fritter (frosted)
+
+SNKRDDL - Snickerdoodle (frosted)
+
+BNA BRD - Banana bread (frosted)
+
+PMKN PIE - Pumpkin pie (frosted)
+
+HOTFDGSUN - Hot fudge sunday (frosted)
+
+
+
+----------
+UNFROSTED
+----------
+
+BLUBRRY - Blueberry (unfrosted)
+
+BRWN SGR CINN - Brown sugar (unfrosted)
+
+STRWBRRY - Strawberry (unfrosted)
+
+-------
+UNKNOWN
+-------
+
+FRSTD CHCFDG - ??? (frosted)
+
+FL - ???
+
+FRSTD BNSGRCIN - ??? (frosted) note: ends in EXPT
+
+FRSTD BRNSGRCIN - ??? (frosted) note: ends in RCP
+
+MANG - Mango????
+
+GRP - ???
+
+AJ - ??? (apple jacks?)
+
+CHOCY CHIP PNCK - ???
+
+HOT CHOC - is this hot chocoalte or marshmallow hot chocolate note: ends in WNTR
+
+
+Theres a bunch of different endings to the data: EXPT, WNTR, RCP, 2024PT60BDY, BTS, RTROPK, SPKY,
