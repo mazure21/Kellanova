@@ -7,3 +7,7 @@ Our major question within this project is whether there are any trends within th
 
 Project Plan Presentation Video:
 https://michiganstate.sharepoint.com/:v:/r/sites/Section_SS24-CMSE-495-001-224214134-EL-32-A26-Kellanova/Shared%20Documents/Kellanova/Recordings_for_Project_Video/CMSE%20495%20Project%20Video%201.mp4?csf=1&web=1&e=d6mwkV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+Minimum Viable Product Video:
+https://michiganstate.sharepoint.com/:v:/s/Section_SS24-CMSE-495-001-224214134-EL-32-A26-Kellanova/EQzO7keJgUVMgv4zXSB0bNIBT8WlI54UY0pjXVSwsurjZQ?email=keith.wikle%40kellanova.com
