@@ -11,3 +11,5 @@ https://michiganstate.sharepoint.com/:v:/r/sites/Section_SS24-CMSE-495-001-22421
 
 Minimum Viable Product Video:
 https://michiganstate.sharepoint.com/:v:/s/Section_SS24-CMSE-495-001-224214134-EL-32-A26-Kellanova/EQzO7keJgUVMgv4zXSB0bNIBT8WlI54UY0pjXVSwsurjZQ?email=keith.wikle%40kellanova.com
+
+Figure Instruction File: The Figure Instruction File is located in the main branch of the repository under the name Figure_Instruction_File.ipynb
