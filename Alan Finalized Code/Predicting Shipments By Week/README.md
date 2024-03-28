@@ -32,25 +32,14 @@ This directory contains files and instructions for predicting shipments by week.
 
 ### Visualizations
 
-- **Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing):**  
-  ![Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)](Visualizations/Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing).png)  
-  - Average Difference: -1002033.70 USD  
-  - RMSE: 84786.48 USD
-
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data):**  
-  ![Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data)](Visualizations/Difference Between Actual and Planned Shipments by Week(Baseline Model, All Data).png)  
-  - Average Difference: -141485.26 USD  
-  - RMSE: 82838.51 USD
-
-- **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
-  ![Difference Between Actual and Predicted Shipments by Week (Prototype Model)](Visualizations/Difference Between Actual and Predicted Shipments by Week (Prototype Model).png)  
-  - Average Difference: 737287.25 USD  
-  - RMSE: 42682.80 USD
+  ![Baseline Model, All Data](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/Baseline%20Model,%20All%20Data.png)
 
 - **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
-  ![Difference Between Actual and Predicted Shipments by Week (LSTM Model)](Visualizations/Difference Between Actual and Predicted Shipments by Week (LSTM Model).png)  
-  - Average Difference: 420266.69 USD  
-  - RMSE: 29992.56 USD
+  ![LSTM Model](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/LSTM%20Model.png)
+
+- **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
+  ![Prototype Model](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/Prototype%20Model.png)
 
 ## Notes
 
