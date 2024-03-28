@@ -14,7 +14,7 @@ This directory contains documents and notes related to the methodology employed 
   - Considering the adoption of a sales prediction model found online.
   - Addressing issues related to categorical features and multicollinearity.
 
-## Future Priorities:
+## Future Priorities (Time Permitted):
 - **Analyze the Research Question:** Evaluate whether economic indicators serve as reliable predictors for actual shipments by comparing models with and without economic data inputs.
 - **Experiment with External Dataset:** Investigate the effectiveness of using an external dataset to compare Kel and competitor brands' performance.
 - **Create a Dashboard:** Develop a dashboard to visualize economic model results for enhanced insights and decision-making.
