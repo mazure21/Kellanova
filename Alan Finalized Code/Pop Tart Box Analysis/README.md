@@ -34,6 +34,22 @@ This directory contains files and instructions for analyzing Pop Tart boxes.
 
 - **pop_tart_imgs.csv:** This CSV file contains additional information about the Pop Tart images.
 
+## Expected Output
+
+### Visualizations
+
+- **Vibrance vs Rating Scatterplot:**  
+  ![Vibrance vs Rating Scatterplot](Kellanova/Alan Finalized Code/Visualizations/Vibrance_vs_Rating_Scatterplot.png)
+
+- **Vibrance Rating Correlation:**  
+  ![Vibrance Rating Correlation](Kellanova/Alan Finalized Code/Visualizations/Vibrance_Rating_corr.png)
+
+- **Box Cover Vibrance Ratings:**  
+  ![Box Cover Vibrance Ratings](Kellanova/Alan Finalized Code/Visualizations/Box_cover_vibrance_ratings.png)
+
+- **Rating Flavor Vibrance Histogram:**  
+  ![Rating Flavor Vibrance Histogram](Kellanova/Alan Finalized Code/Visualizations/Rating_flavor_Vibrance_hist.png)
+
 ## Notes
 
 - Ensure that you execute the provided code snippets to properly set up the environment and extract necessary files.
