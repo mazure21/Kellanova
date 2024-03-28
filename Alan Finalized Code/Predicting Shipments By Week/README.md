@@ -35,11 +35,17 @@ This directory contains files and instructions for predicting shipments by week.
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data):**  
   ![Baseline Model, All Data](Visualizations/Baseline%20Model,%20All%20Data.png)
 
-- **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
-  ![LSTM Model](Visualizations/LSTM%20Model.png)
+- **Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing):**  
+  ![Baseline Model for Testing](Visualizations/Baseline%20Model%20for%20Testing.png)
+
 
 - **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
   ![Prototype Model](Visualizations/Prototype%20Model.png)
+
+- **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
+  ![LSTM Model](Visualizations/LSTM%20Model.png)
+
+
 
 ## Notes
 
