@@ -39,16 +39,16 @@ This directory contains files and instructions for analyzing Pop Tart boxes.
 ### Visualizations
 
 - **Vibrance vs Rating Scatterplot:**  
-  ![Vibrance vs Rating Scatterplot](Kellanova/Alan Finalized Code/Visualizations/Vibrance_vs_Rating_Scatterplot.png)
+  ![Vibrance vs Rating Scatterplot](Visualizations/Vibrance_vs_Rating_Scatterplot.png)
 
 - **Vibrance Rating Correlation:**  
-  ![Vibrance Rating Correlation](Kellanova/Alan Finalized Code/Visualizations/Vibrance_Rating_corr.png)
+  ![Vibrance Rating Correlation](Visualizations/Vibrance_Rating_corr.png)
 
 - **Box Cover Vibrance Ratings:**  
-  ![Box Cover Vibrance Ratings](Kellanova/Alan Finalized Code/Visualizations/Box_cover_vibrance_ratings.png)
+  ![Box Cover Vibrance Ratings](Visualizations/Box_cover_vibrance_ratings.png)
 
 - **Rating Flavor Vibrance Histogram:**  
-  ![Rating Flavor Vibrance Histogram](Kellanova/Alan Finalized Code/Visualizations/Rating_flavor_Vibrance_hist.png)
+  ![Rating Flavor Vibrance Histogram](Visualizations/Rating_flavor_Vibrance_hist.png)
 
 ## Notes
 
