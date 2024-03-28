@@ -28,6 +28,30 @@ This directory contains files and instructions for predicting shipments by week.
 
 - **Kel Shipment Differences by Week Agg.ipynb:** This Jupyter notebook contains code for analyzing and visualizing shipment differences by week.
 
+## Expected Output
+
+### Visualizations
+
+- **Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing):**  
+  ![Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)](Visualizations/'Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)'.png)  
+  - Average Difference: -1002033.70 USD  
+  - RMSE: 84786.48 USD
+
+- **Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data):**  
+  ![Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data)](Visualizations/'Difference Between Actual and Planned Shipments by Week(Baseline Model, All Data)'.png)  
+  - Average Difference: -141485.26 USD  
+  - RMSE: 82838.51 USD
+
+- **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
+  ![Difference Between Actual and Predicted Shipments by Week (Prototype Model)](Visualizations/'Difference Between Actual and Predicted Shipments by Week (Prototype Model)'.png)  
+  - Average Difference: 737287.25 USD  
+  - RMSE: 42682.80 USD
+
+- **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
+  ![Difference Between Actual and Predicted Shipments by Week (LSTM Model)](Visualizations/'Difference Between Actual and Predicted Shipments by Week (LSTM Model)'.png)  
+  - Average Difference: 420266.69 USD  
+  - RMSE: 29992.56 USD
+
 ## Notes
 
 - Make sure to follow the instructions carefully to ensure smooth execution of the analysis.
