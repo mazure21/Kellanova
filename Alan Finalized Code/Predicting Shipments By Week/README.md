@@ -33,7 +33,7 @@ This directory contains files and instructions for predicting shipments by week.
 ### Visualizations
 
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing):**  
-  ![Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)](Visualizations/'Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)'.png)  
+  !['Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)'](Visualizations/'Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing)'.png)  
   - Average Difference: -1002033.70 USD  
   - RMSE: 84786.48 USD
 
