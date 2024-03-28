@@ -9,12 +9,12 @@ This directory contains files and instructions for analyzing Pop Tart boxes.
     pip install imutils
     ```
 
-2. **Upload dataset.zip:** Upload the `dataset.zip` file located in the same folder as this README to the directory where you are currently working on.
+2. **Upload pop-tart box images dataset.zip:** Upload the `pop-tart box images dataset.zip` file located in the same folder as this README to the directory where you are currently working on.
 
-3. **Unzip dataset.zip:** Execute the following code in a cell below to unzip the `dataset.zip` file:
+3. **Unzip pop-tart box images dataset.zip:** Execute the following code in a cell below to unzip the `dataset.zip` file:
     ```python
     import zipfile
-    with zipfile.ZipFile('dataset.zip', 'r') as zip_ref:
+    with zipfile.ZipFile('pop-tart box images dataset.zip', 'r') as zip_ref:
         zip_ref.extractall('.')
     ```
 
