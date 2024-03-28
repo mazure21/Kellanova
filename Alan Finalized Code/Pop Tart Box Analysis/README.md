@@ -55,3 +55,4 @@ This directory contains files and instructions for analyzing Pop Tart boxes.
 - Ensure that you execute the provided code snippets to properly set up the environment and extract necessary files.
 
 - Make sure to follow the instructions carefully to ensure smooth execution of the analysis.
+- For any inquiries, please contact leonalan@msu.edu.
