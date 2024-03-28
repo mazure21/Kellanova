@@ -33,13 +33,13 @@ This directory contains files and instructions for predicting shipments by week.
 ### Visualizations
 
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data):**  
-  ![Baseline Model, All Data](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/Baseline%20Model,%20All%20Data.png)
+  ![Baseline Model, All Data](Visualizations/Baseline%20Model,%20All%20Data.png)
 
 - **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
-  ![LSTM Model](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/LSTM%20Model.png)
+  ![LSTM Model](Visualizations/LSTM%20Model.png)
 
 - **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
-  ![Prototype Model](Kellanova/Alan Finalized Code/Predicting Shipments By Week/Visualizations/Prototype%20Model.png)
+  ![Prototype Model](Visualizations/Prototype%20Model.png)
 
 ## Notes
 
