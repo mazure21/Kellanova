@@ -34,23 +34,23 @@ This directory contains files and instructions for predicting shipments by week.
 
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model, All Data):**  
   ![Baseline Model, All Data](Visualizations/Baseline%20Model,%20All%20Data.png)  
-  - Average Difference: -141485.26 USD  
-  - RMSE: 82838.51 USD
+  - **Average Difference: <span style="color:red">-141485.26 USD</span>**  
+  - **RMSE: <span style="color:red">82838.51 USD</span>**
 
 - **Difference Between Actual and Planned Shipments by Week (Baseline Model for Testing):**  
   ![Baseline Model for Testing](Visualizations/Baseline%20Model%20for%20Testing.png)  
-  - Average Difference: -1002033.70 USD  
-  - RMSE: 84786.48 USD
+  - **Average Difference: <span style="color:red">-1002033.70 USD</span>**  
+  - **RMSE: <span style="color:red">84786.48 USD</span>**
 
 - **Difference Between Actual and Predicted Shipments by Week (Prototype Model):**  
   ![Prototype Model](Visualizations/Prototype%20Model.png)  
-  - Average Difference: 737287.25 USD  
-  - RMSE: 42682.80 USD
+  - **Average Difference: <span style="color:green">737287.25 USD</span>**  
+  - **RMSE: <span style="color:green">42682.80 USD</span>**
 
 - **Difference Between Actual and Predicted Shipments by Week (LSTM Model):**  
   ![LSTM Model](Visualizations/LSTM%20Model.png)  
-  - Average Difference: 420266.69 USD  
-  - RMSE: 29992.56 USD
+  - **Average Difference: <span style="color:green">420266.69 USD</span>**  
+  - **RMSE: <span style="color:green">29992.56 USD</span>**
 
 ## Notes
 
